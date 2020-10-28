@@ -1,0 +1,21 @@
+t=("1:Onions, 2:Lettuce, 3:Tomatoes, 4:Olives, 5:Peppers")
+
+print(t)
+
+s=input("Pick Three Toppings:")
+
+if len(s) > 3:
+
+        print("Error! Only three toppings allowed!")
+
+if len(s) <= 3:       
+
+    print(s)
+
+    v=int(input("How many sandwiches:"))
+
+    print(v)
+
+    d=(v*5)
+
+    print("Total is: ${}".format(d))
